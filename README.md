@@ -36,7 +36,7 @@ Users should be able to:
 ## 🔗 Links
 
 - 🌎 [Live site](https://vimpdev.github.io/fem-11-equalizer-landing-page/)
-<!-- - 🧑‍💻 [View solution on Frontend Mentor](https://your-solution-url.com) -->
+- 🧑‍💻 [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/equalizer-landing-page-mobile-first-with-layer-and-css-nesting-WypAqmXXhV)
 
 ---
 
