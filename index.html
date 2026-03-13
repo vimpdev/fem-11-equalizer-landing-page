@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#FFB964">
+  <meta name="theme-color" content="#191826">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
 
@@ -16,64 +16,60 @@
 <body class="site">
   <header class="site-header">
     <div class="container">
-      <div class="brand">
+      <a href="index.html" class="brand">
         <img src="./assets/images/logo.svg" alt="Equalizer">
-      </div>
+      </a>
     </div>
   </header>
 
   <main class="site-content">
     <section class="hero">
       <div class="container">
-        <h1>We make your music sound extraordinary</h1>
-        <p>A system audio equalizer specifically designed for Android and iOS. Freely tune the way your music sounds
-          with
-          a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain control, reverb, and more!
-        </p>
+        <h1 class="hero-title">We make your music sound extraordinary</h1>
+        <p class="hero-description">A system audio equalizer specifically designed for Android and iOS. Freely tune the
+          way your music sounds with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain
+          control, reverb, and more!</p>
       </div>
     </section>
 
     <section class="product">
       <h2 class="visually-hidden">Product preview</h2>
 
-      <div class="container">
-        <img src="./assets/images/illustration-app.png" alt="Equalizer mobile app interface">
+      <img src="./assets/images/illustration-app.png" alt="Equalizer mobile app interface" class="product-illustration">
 
-        <article class="pricing-card">
-          <h3>Premium EQ</h3>
+      <article class="card">
+        <h3 class="card-title">Premium EQ</h3>
+        <p class="card-description">Get expert-level control with a robust equalizer, volume mixer, and spatial audio.
+          Take your listening experience to a whole new level and access all our incredible features!</p>
 
-          <p>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening
-            experience to a whole new level and access all our incredible features!</p>
+        <div class="price">
+          <strong class="price-value">$4</strong>
+          <span class="price-label">/ month</span>
+        </div>
 
-          <div class="price">
-            <strong>$4</strong>
-            <span>/ month</span>
-          </div>
-
-          <div class="actions">
-            <a href="#" class="btn btn--primary">
-              <svg class="icon" aria-hidden="true">
-                <use href="./assets/icons/sprite.svg#icon-apple"></use>
-              </svg>
-              <span>iOS Download</span>
-            </a>
-            <a href="#" class="btn btn--secondary">
-              <svg class="icon" aria-hidden="true">
-                <use href="./assets/icons/sprite.svg#icon-android"></use>
-              </svg>
-              <span>Android Download</span>
-            </a>
-          </div>
-        </article>
-      </div>
+        <div class="actions">
+          <a href="#" class="btn btn-primary">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/sprite.svg#icon-apple"></use>
+            </svg>
+            <span>iOS Download</span>
+          </a>
+          <a href="#" class="btn btn-secondary">
+            <svg class="icon" aria-hidden="true">
+              <use href="./assets/icons/sprite.svg#icon-android"></use>
+            </svg>
+            <span>Android Download</span>
+          </a>
+        </div>
+      </article>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <div class="brand">
+    <div class="container footer-grid">
+      <a href="index.html" class="footer-brand brand">
         <img src="./assets/images/logo.svg" alt="Equalizer">
-      </div>
+      </a>
       <div class="footer-info">
         <p>All rights reserved © Equalizer 2021</p>
         <p>Have any problems? Contact us via social media or email us at <a
@@ -95,7 +91,7 @@
           </a>
         </li>
         <li>
-          <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X Twitter">
+          <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X">
             <svg class="icon" aria-hidden="true">
               <use href="./assets/icons/sprite.svg#icon-x-twitter"></use>
             </svg>
